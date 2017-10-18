@@ -41,6 +41,7 @@ class Inventory extends React.Component{
         <h2>Inventory</h2>
         <p>Sign in to manage your store inventory</p>
         <button className="facebook" onClick={()=> this.authenticate('facebook')}>Log In With Facebook</button>
+        <button className="github" onClick={()=> this.authenticate('github')}>Log In With Github</button>
       </div>
     )
   }
