@@ -28,7 +28,7 @@ class Inventory extends React.Component{
 
   authenticate(provider) {
     console.log(`Trying to login with ${provider}`);
-    base.AuthWithOAuthPopup(provider, this.authHandler);
+    base.authWithOAuthPopup(provider, this.authHandler);
   }
 
   authHandler(err, authData) {
